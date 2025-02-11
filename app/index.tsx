@@ -39,13 +39,13 @@ export default function Login() {
     const handleLogin = () => {
         if (validateInputs()) {
             // const user = (users as Users).users.find(user => user.username === username && user.password === password);
-            // const user = users.users.find(user => user.username === username && user.password === password);
+            const user = users.users.find(user => user.username === username && user.password === password);
 
-            // if (user) {
+            if (user) {
                 router.push("/home");
-            // } else {
-            //     alert("Invalid username or password");
-            // }
+            } else {
+                alert("Invalid username or password");
+            }
         }
     };
 

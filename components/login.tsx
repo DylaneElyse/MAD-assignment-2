@@ -38,8 +38,8 @@
 
 //     const handleLogin = () => {
 //         if (validateInputs()) {
-//             const user = (users as Users).users.find(user => user.username === username && user.password === password);
-//             // const user = users.users.find(user => user.username === username && user.password === password);
+//             //const user = (users as Users).users.find(user => user.username === username && user.password === password);
+//             const user = users.users.find(user => user.username === username && user.password === password);
 
 //             if (user) {
 //                 router.push("/home");
