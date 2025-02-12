@@ -42,9 +42,9 @@ export default function Login() {
             const user = users.users.find(user => user.username === username && user.password === password);
 
             if (user) {
-                router.push("/home");
+                router.push("/(tabs)/home");
             } else {
-                alert("Invalid username or password");
+                alert("invalid username or password");
             }
         }
     };

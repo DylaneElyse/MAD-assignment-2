@@ -1,8 +1,10 @@
 import React from "react";
 import { Stack } from "expo-router";
 
-const Layout: React.FC = () => {
-    return <Stack />;
+export default function Layout(){
+     return(
+        <Stack>
+            <Stack.Screen name="(tabs)" options={{ headerShown: false }} />
+        </Stack>
+    );
 };
-
-export default Layout;
