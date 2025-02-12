@@ -8,6 +8,7 @@ export function Calgary() {
             cityName="Calgary"
             image={require('../assets/calgary-image.jpg')}
             website="https://www.calgary.ca/home.html"
+            commentArg = "There are tons of interesting stuff about Calgary, such as ..."
         />
     )
 }
@@ -18,6 +19,7 @@ export function Edmonton() {
             cityName="Edmonton"
             image={require('../assets/edmonton-image.jpg')}
             website="https://www.edmonton.ca/"
+            commentArg = "There are tons of interesting stuff about Edmonton, such as ..."
             />
     )
 }
