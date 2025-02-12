@@ -1,24 +1,26 @@
-import City from "../app/city-page";
+import { CityProps, City } from "../app/city-page";
 
-export function Calgary() {
-    return (
-        <City
-            cityName="Calgary"
-            image={require("../assets/calgary-image.jpg")}
-            website="https://www.calgary.ca/home.html"
-        />
-    )
-}
+const Calgary = () => {
+  return (
+    <City
+      cityName="Calgary"
+      image="../assets/calgary-image.jpg"
+      website="https://www.calgary.ca/home.html"
+    />
+  );
+};
 
-export function Edmonton() {
-    return (
-        <City
-            cityName="Edmonton"
-            image={require("../assets/edmonton-image.jpg")}
-            website="https://www.edmonton.ca/"
-            />
-    )
-}
+const Edmonton = () => {
+  return (
+    <City
+      cityName="Edmonton"
+      image="../assets/edmonton-image.jpg"
+      website="https://www.edmonton.ca/"
+    />
+  );
+};
+
+export { Calgary, Edmonton };
 
 // Calgary Image sourced from Unsplash
 // https://unsplash.com/photos/city-skyline-across-body-of-water-during-daytime-n4mvQ1YWk1U
